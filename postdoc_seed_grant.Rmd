@@ -1,0 +1,18 @@
+---
+title: "Postdoc Seed Grant"
+author: "Ranae N. Dietzel"
+date: "May 31, 2018"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The past decade has seen an explosion in the collection, analysis, and application of agricultural data. This growth has coincided with rapid development of the Internet of Things (IoT). In general, IoT technology refers to the plethora of devices with internet capabilities that could potentially connect and exchange data, leading to powerful datasets and greater efficiency of activities. Such an automated assemblage of data and communication between devices would be invaluable in agricultural research and practice. With the right devices and connections, a farmer could receive phone notifications from fields that need irrigation, may require side dressed nitrogen, or are experiencing ideal conditions for harmful fungal growth. At the same time, the farmer could be given options to activate irrigators, transfer map-based variable rate nitrogen application information to the tractor’s computer, or place an order for fungicide.
+
+Despite many potential uses for IoT technology in agriculture, there remain challenges that inhibit full implementation. Many sensors currently deployed in fields for measurement such as soil temperature and moisture were developed pre-IoT and need to be redesigned or retrofitted to enable internet access and real-time communication. Hardware that is in place then needs the software to direct functions and facilitate communication with other devices. Currently most available agricultural data collection hardware and software is proprietary, meaning that anyone interested in using it needs to buy into the entire system. For farmers this can mean purchasing equipment that they cannot use, maintain, modify, or fix without working with a representative from the company selling the technology. This system often carries with it the added disadvantage of entrusting or sharing collected data with the company handling the software, leading to disputes over data rights. 
+
+We propose developing a prototype data collection and management system that starts with commonly used soil temperature and moisture sensors and uses custom open source software to transfer data from the sensors to a server where it will then be automatically checked for anomalies or sensor failures, triggering notifications of problems. Further open source programming will summarize the data and display the results on a public website. Every step of the process will be transparent and carefully documented, ensuring others can reproduce the process.           
